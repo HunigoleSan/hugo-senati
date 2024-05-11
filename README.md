@@ -1,6 +1,6 @@
 # Proyecto Hugo Senati
 
-![Diseño Prevista Del Proyecto Hugo Senati](./design/my_result.PNG)
+![Diseño Prevista Del Proyecto Hugo Senati](/img/prevista.png)
 
 ## Bienvenido! 👋
 
