@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+input{
+    outline: none;
+    border: 1px solid black;
+}
+.absolute{ position: absolute;}
+.bottom-0{ bottom: 0;}
+.width-full{ width: 100%;}
+.py-medium{ padding-top: .5rem; padding-bottom: .5rem;}
+.px-normal{ padding-left: 1rem; padding-right: 1rem;}
+.backdrop-blur-medium{backdrop-filter: blur(8px);}
+.bg-white-transparent-01{background: rgba(255,255,255,10%);}
+.shadow-text{text-shadow: 0px 0px 6px rgba(0,0,0,70%);}
+.fz-18{ font-size: 18px;}

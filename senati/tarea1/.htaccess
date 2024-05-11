@@ -1,0 +1,16 @@
+# Mejoramos el comportamiento de la web con las interacciones del usuario
+# Deshabilitar el listado de directorios
+
+# Options -Indexes
+
+# ErrorDocument 404 /errors/error500.php
+
+# Control de inicio para mostrar vistas principales de la web
+DirectoryIndex index.html index.php
+
+ErrorDocument 404 http://localhost/interaccion_moviles/tarea1/error/error_404.html
+# ErrorDocument 403 http://localhost/my_web_hugo3/tiendahunigole/errors/error403.html
+
+# Configuracion directivas del PHP.ini
+# php_flag short_open_tag On
+# php_value upload_max_filesize 500M
