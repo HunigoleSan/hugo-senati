@@ -86,9 +86,46 @@ body{
     font-size: 18px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 3px;
 }
 .nav_img{
     width: 300px;
     border-radius: 6px 0px 0px 6px;    
+}
+
+@media (width <= 500px) {
+    .nav_list{
+        width: 100%;
+    }
+    .nav_li{
+        width: 100%;
+        position: relative;
+    }
+    .description{
+        font-size: clamp(20px,10vw,45px);
+    }
+    .header{
+        padding: 1rem;
+    }
+}
+
+@media (width <= 389px) {
+
+    .nav_img{
+        width: 88%;
+    }
+    .nav_link{
+        margin: 0;
+    }
+    .nav_li{
+        height: auto;
+        padding: 2rem 0rem 2rem 1rem;
+    }
+    .nav_description{
+        justify-content: center;
+    }
+    .shadow-text{
+        font-weight: 500;
+    }
 }
