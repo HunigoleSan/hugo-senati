@@ -50,8 +50,8 @@ main{
 }
 
 .navegation_link {
-    color: #263240;
-    position: relative;
+    color: #263240 !important;
+    position: relative !important;
 }
 
 .navegation_link::after {

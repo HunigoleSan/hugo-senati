@@ -1,0 +1,42 @@
+body{
+    background: white;
+}
+
+.popular-product{
+    margin-top: 123px !important;
+}
+.product-section{
+    padding-top: 87px;
+    background: transparent;
+
+}
+.product-price{
+    color: #FB7C00 !important;
+}
+.container-banner-personalization{
+    padding: 50px !important;
+    height: 280px;
+    background: #FFC684;
+    font-size: 45px;
+    color: white;
+}
+.img-fluid{
+    width: 100%;
+}
+.icon-cross > .img-fluid{
+    width: unset;
+}
+@media (width <= 1190px) {
+    .product-section{
+        padding-top: 72px;
+    }
+}
+@media (width <= 500px) {
+    .product-section{
+        padding-top: 67px;
+    }
+    .container-banner-personalization{
+        height: 180px;
+        font-size: 35px;
+    }
+}
