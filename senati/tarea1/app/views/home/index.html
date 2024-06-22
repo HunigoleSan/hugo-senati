@@ -17,7 +17,7 @@
 
 <body>
     <header class="header">
-        <a class="header_logo" href="home.html">
+        <a class="header_logo" href="index.html">
             <img src="../../../public/img/siatmedia_logo.png" alt="Siatmedia">
         </a>
         <nav class="navegation">
@@ -117,7 +117,8 @@
         <section id="contacto" class="contacto">
             <section class="width-xl jc-center ai-center">
                 <div class="formulario-mobile-animation d-flex radius relative over-hidden shadow-big-black">
-                    <form class="formulario_contacto" action="">
+                    <form id="form_contacto" class="formulario_contacto relative" action="">
+                        <p id="show_message" class="show_message"></p>
                         <fieldset class="formulario_field">
                             <legend class="formulario_legend">
                                 Contáctanos
@@ -138,11 +139,11 @@
                                 </div>
                                 <div class="control">
                                     <label class="control_label" for="mensaje">Mensaje</label>
-                                    <textarea class="controlador controlador_area" name="mensaje" id="mensaje" value="Describa su mensaje">
+                                    <textarea class="controlador controlador_area" name="mensaje" id="mensaje">
                                 
                                     </textarea>
                                 </div>
-                                <input class="btn btn_submit" type="submit" value="ENVIAR">
+                                <input id="submit" class="btn btn_submit" type="submit" value="ENVIAR">
                             </div>
                         </fieldset>
                     </form>
@@ -202,5 +203,6 @@
     <script src="../../../public/components/services.js" type="module"></script>
     <script src="../../../public/components/attention.js" type="module"></script>
     <script src="../../../public/components/notice.js" type="module"></script>
+    <script src="../../../public/components/validation.js" type="module"></script>
 </body>
 </html>

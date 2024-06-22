@@ -30,3 +30,6 @@ input{
 .shadow-text{text-shadow: 0px 0px 6px rgba(0,0,0,70%);}
 .fz-18{ font-size: 18px;}
 .flex-align-center{display: flex; align-items: center;}
+.relative{
+    position: relative;
+}
